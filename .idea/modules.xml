@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GLA_SUPER_150/Super_150_Assignment/Assignment/Assignment.iml" filepath="$PROJECT_DIR$/GLA_SUPER_150/Super_150_Assignment/Assignment/Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GLA_SUPER_150/GLA_SUPER_150.iml" filepath="$PROJECT_DIR$/GLA_SUPER_150/GLA_SUPER_150.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GLA_SUPER_150/Super_150_Assignment/Super_150_Assignment.iml" filepath="$PROJECT_DIR$/GLA_SUPER_150/Super_150_Assignment/Super_150_Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled2.iml" filepath="$PROJECT_DIR$/untitled2.iml" />
+    </modules>
+  </component>
+</project>
