@@ -23,6 +23,7 @@ public class Sliding_Window_Technique {
                  ei++
 
            * */
+
         Scanner sc = new Scanner(System.in);
         int [] arr ={2,1,3,5,1,2,1,7,8,2,4};
         int k= sc.nextInt();

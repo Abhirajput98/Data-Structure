@@ -2,21 +2,11 @@ import java.util.Scanner;
 public class az {
 
     public static void main(String[] args) {
+        String n="877392";
+        Double a = Double.parseDouble(n);
+        System.out.println(a);
         // Write your code here
-        Scanner sc = new Scanner(System.in);
-        char ch=sc.next().charAt(0);
-        System.out.println(ch);
-        if(ch>='a'&& ch<='z'){
-            System.out.println("lowercase");
-        }
-        else if ( ch>='a' && ch<='z'){
-            System.out.println("uppercase");
-        }
-        else{
-            System.out.println("Invalid");
-        }
 
-
-        }
+    }
 
     }

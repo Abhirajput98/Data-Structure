@@ -6,6 +6,7 @@ public class Kartik_Bhaiya_And_Strings {
         int k=3;
         int aFlip =perfectness_maximum(s,k,'a');
         int bflip=perfectness_maximum(s,k,'b');
+      //  System.out.println(perfectness_maximum(s,k,'a'));
         System.out.println(Math.max(aFlip,bflip));
 
 
