@@ -14,7 +14,7 @@ public class string_pelindrome {
         String a = "";
         for (int i = 0; i < s.length() / 2+1; i++) {
             for (int j = s.length() - 1; j >= s.length() / 2; j--) {
-                if (s.charAt(i) != s.charAt(j)) {
+                if (s.charAt(i) == s.charAt(j)) {
                     return false;
                 }
             }
