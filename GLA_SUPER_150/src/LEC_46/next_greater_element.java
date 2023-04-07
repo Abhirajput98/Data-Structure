@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class next_greater_element {
     public static void main(String[] args) {
-        int [] arr = {11,2,3,23,13,9,15};
+        int [] arr = {11,13,21,3};
        nextgreater(arr);
 
     }

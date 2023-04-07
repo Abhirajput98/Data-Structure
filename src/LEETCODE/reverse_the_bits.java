@@ -1,25 +1,20 @@
-import java.util.*;
-public class AAAAAAAAAAA {
+package LEETCODE;
+
+import java.util.Scanner;
+
+public class reverse_the_bits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        System.out.println(s);
-/*
         int n=sc.nextInt();
         int sum=0;
         int mul=1;
         while(n!=0){
-            int rem=n%8;
+            int rem=n%10;
             sum=sum+rem*mul;
-            n=n/8;
-            mul=mul*10;
+            n=n/10;
+            mul=mul*n%2;
 
         }
         System.out.println(sum);
-
-
-
-        }*/
     }
-
-    }
+}
