@@ -18,5 +18,6 @@ public class Make_Array_Zero_by_Subtracting_Equal_Amounts {
         }
         System.out.println(c);
 
+
     }
 }
