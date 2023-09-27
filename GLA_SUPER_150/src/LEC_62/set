@@ -1,0 +1,6 @@
+set <<<:<:<::<:
+// set is implemented through HashTable
+            << Hash set
+            << Tree set
+            << Linked Hashset
+

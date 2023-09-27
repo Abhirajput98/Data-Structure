@@ -1,18 +1,18 @@
-package LEC_49;
+package LEC_60;
 
+import LEC_49.Linked_List;
 
+public class Linked_list<T> {
+    public static class  Node{
+        public int val;
+        public Linked_List.Node Next;
+    }
 
-public class Linked_List {
-  public static class  Node{
-      public int val;
-      public Node Next;
-  }
-
-    private  Node head;  //  contains int and adress of next node  << Linked list class member
+    private Linked_List.Node head;  //  contains int and adress of next node  << Linked list class member
     private  int size;
-    private  Node tail;
+    private Linked_List.Node tail;
     public   void AddFirst(int item){
-        Node nn = new Node();
+        Linked_List.Node nn = new Linked_List.Node();
         nn.val=item;
         if(size==0){
             head=nn;
@@ -26,7 +26,7 @@ public class Linked_List {
         }
     }
     public   void Display(){
-        Node temp = head;
+        Linked_List.Node temp = head;
         while (temp!=null){
             System.out.println(temp.val+"<");
             temp= temp.Next;
@@ -42,7 +42,7 @@ public class Linked_List {
 
         }
         else {
-            Node nn = new Node();
+            Linked_List.Node nn = new Linked_List.Node();
             nn.val= item;
             tail.Next= nn;  // tail ka ko next jo null tha ab usee update kiya jiko add kiya h
             tail=nn;
@@ -51,11 +51,11 @@ public class Linked_List {
         }
 
     }
-    public Node GetNode(int k ) throws Exception{
+    public Linked_List.Node GetNode(int k ) throws Exception{
         if(k<0 || k>=size){
             throw new Exception("Value th range mein de ");
         }
-        Node temp  = new Node();
+        Linked_List.Node temp  = new Linked_List.Node();
         for(int i =1;i<=k;i++){
             temp= temp.Next;
         }
@@ -66,16 +66,16 @@ public class Linked_List {
             throw new Exception("bklol k range mein likh");
         }
         if(k==0) {
-                AddFirst(item);
+            AddFirst(item);
         }
         else if(k==size) {
             AddLast(item);
         }
         else {
-            Node nn=new Node();
+            Linked_List.Node nn=new Linked_List.Node();
             nn.val=item;
-            Node k_1th=GetNode(k-1);
-            Node kth=k_1th.Next;
+            Linked_List.Node k_1th=GetNode(k-1);
+            Linked_List.Node kth=k_1th.Next;
             k_1th.Next=nn;
             nn.Next=kth;
             this.size++;
@@ -101,7 +101,7 @@ public class Linked_List {
             size--;
         }
         else {
-            Node temp = head;
+            Linked_List.Node temp = head;
             head = head.Next;
             temp.Next= null;
             size--;
@@ -110,7 +110,7 @@ public class Linked_List {
         }
         return rv;
 
-        }
+    }
 
 
 

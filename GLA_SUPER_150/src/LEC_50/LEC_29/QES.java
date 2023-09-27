@@ -1,4 +1,4 @@
-package LEC_29;
+package LEC_50.LEC_29;
 
 public class QES {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package LEC_17;
 import java.util.Scanner;
 
-public class string_pelindrome {
+public class hvhvstring_pelindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();

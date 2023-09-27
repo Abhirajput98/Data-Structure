@@ -23,7 +23,7 @@ public class rotate_2d {
         int maxr = m - 1;
         int minc = 0;
         int maxc = n - 1;
-        int elements = n * m;
+      //  int elements = n * m;
         int w = 0;
         while (w <= n && minr<=maxr) {
 
