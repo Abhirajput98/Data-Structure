@@ -2,6 +2,16 @@ package LEC_1;
 
 public class TEST1 {
     public static void main(String[] args) {
+        String s = "Let's take LeetCode contest";
+        String [] s2 = s.split(" ");
+        String ans ="";
+        for(String i : s2){
+            for(int j =i.length()-1;j>=0;j--){
+                ans+=i.charAt(j);
+            }
+            ans+=" ";
+        }
+        System.out.println(ans.substring(0,ans.length()-1));
    /*   int a=5;
         int b=122;
         a=12;   a's  value will be updated

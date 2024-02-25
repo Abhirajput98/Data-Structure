@@ -1,4 +1,4 @@
-package Codechef;
+package ReStart_100;
 
 public class candies {
     public static void main(String[] args) {

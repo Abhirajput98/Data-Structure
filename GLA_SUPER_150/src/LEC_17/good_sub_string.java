@@ -24,4 +24,5 @@ public class good_sub_string {
         return a.length();
 
     }
+
 }

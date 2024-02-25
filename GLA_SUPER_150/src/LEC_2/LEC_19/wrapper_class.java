@@ -1,4 +1,4 @@
-package LEC_19;
+package LEC_2.LEC_19;
 
 public class wrapper_class {
     public static void main(String[] args) {

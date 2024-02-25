@@ -1,4 +1,4 @@
-package LEC_19;
+package LEC_2.LEC_19;
 
 import java.util.ArrayList;
 

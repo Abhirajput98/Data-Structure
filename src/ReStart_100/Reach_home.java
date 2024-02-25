@@ -1,4 +1,4 @@
-package Codechef;
+package ReStart_100;
 
 import java.util.Scanner;
 
